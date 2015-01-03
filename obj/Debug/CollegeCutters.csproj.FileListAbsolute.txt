@@ -1,0 +1,6 @@
+c:\users\chris\documents\visual studio 2013\Projects\CollegeCutters\CollegeCutters\bin\CollegeCutters.dll.config
+c:\users\chris\documents\visual studio 2013\Projects\CollegeCutters\CollegeCutters\bin\CollegeCutters.dll
+c:\users\chris\documents\visual studio 2013\Projects\CollegeCutters\CollegeCutters\bin\CollegeCutters.pdb
+c:\users\chris\documents\visual studio 2013\Projects\CollegeCutters\CollegeCutters\obj\Debug\CollegeCutters.csprojResolveAssemblyReference.cache
+c:\users\chris\documents\visual studio 2013\Projects\CollegeCutters\CollegeCutters\obj\Debug\CollegeCutters.dll
+c:\users\chris\documents\visual studio 2013\Projects\CollegeCutters\CollegeCutters\obj\Debug\CollegeCutters.pdb

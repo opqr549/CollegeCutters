@@ -1,0 +1,115 @@
+
+	form{
+		width: 600px;
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		margin-left: -300px;
+		margin-top: -128px;
+		border: none;
+}
+	iframe{
+		position: fixed;
+		top: 39.55%;
+		left: 48%;
+	}
+	.calender{
+		
+		resize: both;
+		background-size: 200%, 200%;
+		margin-left: -40px; 
+		position: fixed;
+		top: 5%;
+		left: 45%;
+}
+	img.resize{
+		width: 300px;
+		height: 200px; 
+}
+	#background{
+		width: 1200px;
+		height: 800px;
+		border: 5px solid #000;
+		background-color: rgba(34, 170	, 34, .4);
+		position: center;
+		position: fixed;
+		top: 50%;
+		left:50%;
+		margin-top: -400px;
+		margin-left: -600px;
+		z-index: 0;
+}
+	#inputbox{
+		width: 600px;
+		height: 400px;
+		border: solid;	
+		background-color: #cdc9c9;
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		margin-top: -200px;
+		margin-left: -300px;
+		z-index:0;
+}
+	.orderbtn{
+		width: 552px;
+		margin-top: 12px;
+}
+
+    body{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       font-size: 10pt;
+    }
+	.workOrderHeader{
+		font-style: italic;
+		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		font-size: 36px;
+		font-weight: lighter;
+		border:none;
+		margin-top: 25px;
+        text-align: center;
+}
+	input{
+		font-size: 14px;
+		font-weight: lighter;
+		font-style: normal;
+		width: 200px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       font-size: 10pt;
+}
+	label{
+		display: block;
+		margin-top:5px;
+		margin-bottom: 5px;
+		border: none;
+		font-size: 14px;
+		font-weight: lighter;
+		font-style: normal;
+		font-family: serif;
+		border:none;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       font-size: 10pt;
+
+}
+	textarea{
+		width: 200px;
+		height: 50px;
+		resize: none;
+		font-size: 14px;
+		font-weight: lighter;
+		font-style: normal;
+		font-family: sans-serif;
+}
+	fieldset{
+		border:none;
+}
+
+    a:any-link{
+        color: black;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    	html{
+		background-image: url("/images/background.png");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+}

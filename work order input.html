@@ -1,0 +1,98 @@
+<html>
+<head>
+    <title> College Cutters </title>
+    <link rel="stylesheet" type="text/css" href="/css/navigation.css">
+    <link rel="stylesheet" type="text/css" href="/css/forminput.css">
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js"></script>
+
+
+    <style>
+        #message{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="background" />
+    <div id="inputbox" />
+    <h4 class="workOrderHeader">Place a Work Order</h4>
+    <div id="navigation" />
+    <a href="work order input.html" id="workorder">Place a Work Order ></a>
+    <a href="About.html" id="about">About Us ></a>
+    <a href="Contact.html" id="contact">Contact Us ></a>
+    <a href="Services.html" id="services">Services ></a>
+    <a href="Gallery.html" id="gallery">Gallery of past work ></a>
+    <a href="home.html" id="back">Home > </a>
+    <div id="form" />
+    <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=200&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=drummerdude2112%40gmail.com&amp;color=%23853104&amp;ctz=America%2FDenver" style=" border-width:0 " width="300" height="200" frameborder="0" scrolling="no"></iframe>
+    <script type="text/javascript">
+             window.onload = function () {
+                 var nameField = document.getElementById("name");
+                 nameField.onfocus = function(){
+                     if(nameField.value == "Your Name"){
+                         nameField.value = "";
+                     }
+                 }
+                 nameField.onblur = function(){
+                     if(nameField.value == ""){
+                         nameField.value = "Your Name";
+                     }
+                 }
+                 var emailField = document.getElementById("email");
+                 emailField.onfocus = function(){
+                     if(emailField.value == "Your Email"){
+                         emailField.value = "";
+                     }
+                 }
+                 emailField.onblur = function(){
+                     if(emailField.value == ""){
+                         emailField.value = "Your Email";
+                     }
+                 }
+                 var phoneField = document.getElementById("phone");
+                 phoneField.onfocus = function(){
+                     if(phoneField.value == "Your Phone Number"){
+                         phoneField.value = "";
+                     }
+                 }
+                 phoneField.onblur = function(){
+                     if(phoneField.value == ""){
+                         phoneField.value = "Your Phone Number";
+                     }
+                 }
+             }
+
+
+     </script>
+     <!--<script src="formvalidation.js"></script>-->
+     <form name="OrderForm" action="WorkOrderReceive.ashx" method="post" onsubmit="return validateForm()">
+        <fieldset>
+            <label for="name">Name: </label>
+            <input name="name" value="Your Name" id="name" />
+            <label for="email"> Your Email: </label>
+            <input name="email" value="Your Email" id="email" />
+            <label for="phone">Phone Number: </label>
+            <input name="phone" value="Your Phone Number" id="phone" />
+            <label for="description">Description: </label>
+            <textarea name="description"></textarea>
+        </fieldset>
+        <fieldset>
+            <input class="orderbtn" type="submit" value="Send Order" />
+        </fieldset>
+    </form>
+    <div id="scroll"></div>
+    <div class="" id="preloader">
+        <blockquote>Default Quote</blockquote>
+    </div>
+
+    <script>
+
+        document.getElementById('preloader').className += 'loading';
+    </script>
+    <script src="Quotes.js"></script>
+</body>
+</html>
+

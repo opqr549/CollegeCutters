@@ -1,0 +1,72 @@
+﻿<html>
+<head>
+    <title> College Cutters </title>
+    <link rel="stylesheet" type="text/css" href="/css/navigation.css">
+    <link rel="stylesheet" type="text/css" href="/css/forminput.css">
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js"></script>
+
+    
+    <style>
+        #message{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 22px;
+            text-align: center;
+            font-style: italic;
+        }
+        #serviceslistleft{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 18px;
+            position: absolute;
+            left: 5%;
+        }
+        #serviceslistright{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 18px;
+            position: absolute;
+            left: 40%;
+        }
+    </style>
+</head>
+<body>
+ 
+    <div id="background" />
+    <div id="inputbox" />
+    <h4 class="workOrderHeader">Services Offered</h4>
+    <p id="message"> We offer many different services to suit your various <br />lawn care and landscaping needs.</p>
+    <ul id="serviceslistleft">
+        <li>Core Aeration</li>
+        <li>Fertilization</li>
+        <li>General Landscaping</li>
+        <li>Irrigation Services</li>
+        <li>Overseed</li>
+        <li>Power Rake</li>
+    </ul>
+    <ul id="serviceslistright">
+        <li>Shrub Trimming</li>
+        <li>Sod preparatin and installation</li>
+        <li>Weed Control</li>
+        <li>Yard Clean UP</li>
+        <li>Mowing</li>
+        <li>Other things</li>
+    </ul>
+    <div id="navigation" />
+    <a href="work order input.html" id="workorder">Place a Work Order ></a>
+    <a href="About.html" id="about">About Us ></a>
+    <a href="Contact.html" id="contact">Contact Us ></a>
+    <a href="Services.html" id="services">Services ></a>
+    <a href="Gallery.html" id="gallery">Gallery of past work ></a>
+    <a href="home.html" id="back">Home > </a>
+    <div id="scroll"></div>
+    <div class="" id="preloader">
+        <blockquote>Default Quote</blockquote>
+    </div>
+
+    <script>
+
+        document.getElementById('preloader').className += 'loading';
+    </script>
+    <script src="Quotes.js"></script>
+</body>
+
+</html>
+
