@@ -39,7 +39,7 @@ namespace CollegeCutters
             msg.Body = body.ToString();
 
             var smtp = new SmtpClient("smtp.sendgrid.net", 2525);
-            smtp.Credentials = new System.Net.NetworkCredential("opqr549", "mees8963");
+            smtp.Credentials = new System.Net.NetworkCredential("YOUR USERNAME HERE", "YOUR PASSWORD HERE");
             
             msg.To.Add(toAddress);
             msg.From = fromAddress;
